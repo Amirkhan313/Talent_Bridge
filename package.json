@@ -1,0 +1,13 @@
+{
+  "name": "talent-bridge",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:client": "cmd /c npm --prefix client run dev",
+    "dev:server": "cmd /c npm --prefix server run dev",
+    "install:client": "cmd /c npm --prefix client install",
+    "install:server": "cmd /c npm --prefix server install",
+    "seed": "cmd /c npm --prefix server run seed",
+    "dev": "cmd /c \"start \\\"server\\\" /D server \\\"C:\\\\Program Files\\\\nodejs\\\\npm.cmd\\\" run dev & start \\\"client\\\" /D client \\\"C:\\\\Program Files\\\\nodejs\\\\npm.cmd\\\" run dev\""
+  }
+}
